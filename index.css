@@ -10,13 +10,14 @@ body{
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-color: #ddd;
 }
 
 .nav{
   width: 100%;
-  height: 50px;
+  height: 80px;
   background: black;
-  opacity: 0.9;
+  opacity: 1;
   color: white;
   font-size: 1em;
   display: flex;
@@ -25,11 +26,6 @@ body{
   top: 0;
 }
 
-.indian{
-  border: 2px solid black;
-  background: grey;
-  margin-top: 20px;
-}
 
 h1{
   padding-left: 0.5em;
@@ -39,13 +35,6 @@ h1{
     padding-right: 0.5em;
   }
 
-.indian-singer{
-  text-align: center;
-  font-size: 3em;
-  width: 98%;
-  border: 2px solid black;
-}
-
 .logo{
   width: 30%;
   padding-top: 1em;
@@ -53,15 +42,28 @@ h1{
 }
 .navbar-items {
   width: 70%;
-  text-align: end;
-  padding-top: 1em;
+  text-align: left;
+  padding-top: 1.5em;
 }
+
 .nav-item{
-  padding-right: 20px;
+  padding-left: 25px;
+  padding-right: 50px;
   color: white;
+  font-size: 25px;
   text-decoration: none;
+  height: 50px;
 }
-  
+
+.nav-item:hover{
+  color: grey;
+}
+
+.musicinfo{
+  text-align: center;
+  font-size: 50px;
+}
+
 .mike{
   width: 200px;
   height: 300px;
@@ -82,6 +84,15 @@ h2{
   padding-top: 2em;
 }
 
+.indian-singer{
+  margin-top: 20px;
+  text-align: center;
+  font-size: 3em;
+  width: 100%;
+  border-top: 2px solid black;
+  padding-top: 20px;
+}
+
 .singers{
   width: 100%;
   justify-content: center;
@@ -96,13 +107,18 @@ h2{
   border: 1px solid black;
 }
 
-.item-img{
+.singer-tile:hover{
+  box-shadow: 2px 2px 6px 2px black;
+  border: 1px solid black;
+}
+
+.singer-img{
   width: 100%;
   height: 300px;
   object-fit: cover;
 }
 
-.item-text {
+.singer-name {
   width: 100%;
   height: 30px;
   margin-top: -30px;
@@ -111,6 +127,11 @@ h2{
   color: #fff;
   background: black;
   opacity: 0.9;
+}
+
+.singer-name:hover{
+  background-color: #707070;
+  border : 1px solid black;
 }
 
 .footer{
@@ -132,6 +153,7 @@ span{
   text-align: center;
   padding-bottom: 0.5em;
 }
+
 input{
   padding: 0.5em;
   margin-top: 0.5em;
