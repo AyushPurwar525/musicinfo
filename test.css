@@ -22,20 +22,20 @@ h1{
 .wrapper-1{
 	height: 600px;
 	display: inline-block;
-	margin-right: 0.5em;
+	margin-right: 1em;
 }
 
 .wrapper-2{
 	height: 600px;
 	display: inline-block;
-	margin-left: 0.5em;
-	margin-right: 0.5em;
+	margin-left: 1em;
+	margin-right: 1em;
 }
 
 .wrapper-3{
 	height: 600px;
 	display: inline-block;
-	margin-left: 0.5em;
+	margin-left: 1em;
 }
 
 .box1{
@@ -146,6 +146,6 @@ h1{
 
 @media only screen and (min-width: 769px){
 	[class*="wrapper-"]{
-		width: 31%;
+		width: 30%;
 	}
 }
